@@ -28,24 +28,14 @@
     animation-duration: 10s;
     animation-timing-function: linear;
 }
-/* @keyframes logo {
+@keyframes logo {
     0%{left: 0px; top: 0px;}
     50%{left: 490px; top: 0px;}
     100%{left: 0px; top: 0px;}
-} */
- .HEADINGSARDAR{
-    /* border: 1px solid black; */
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    width: 30%;
-    padding-top: 20px; 
-    margin-left: 2%;
- }
+}
 .header1{
     height: 50px;
-    margin-left: 100px;
-    /* margin-left: 0%; */
+    margin-left: 550px;
     padding-top: 25px;
     color: white;
     /* border: 1px solid black; */
@@ -68,7 +58,7 @@
     text-decoration: none;
     font-size: 20px;
     font-weight:600;
-    margin: 10px;
+    margin: 20px;
     color: white;
 }
 #pages:hover{
@@ -95,7 +85,7 @@
     /* border: 1px solid black; */
     width: 48%;
     text-align: center;
-    margin-left:8%;
+    margin-left: 150px;
 }
 .box2{
     height: 400px;
@@ -108,26 +98,26 @@
     margin-top: 80px;
 }
 .heading1{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 60px;
+    margin-top: 140px;
     animation-name: blank;
     animation-duration: 1.5s;
     animation-timing-function: linear;
     /* border: 10px solid blue; */
-    /* text-shadow: 3px 5px 4px black; */
+    text-shadow: 3px 5px 4px black;
 }
 @keyframes blank{
     0%{font-size: 10px; opacity: 0;}
-    100%{font-size: 65px;}
+    100%{font-size: 60px;}
 }
 .heading2{
-    color: black;
-    font-size: 28px;
+    color: #283796;
+    font-size: 30px;
     font-weight: bolder;
     font-family: Georgia;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 /* section 2 end */
 /* section 2 end */
@@ -187,15 +177,16 @@
     margin-top: 50px;
     text-align: center;
     display: grid;
-    /* opacity: .7; */
+    opacity: .7;
     background-image: url("IMG-20240323-WA0003.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     /* border: 1px solid red; */
 }
 .notesbox:hover{
-    opacity: 0.7;
+    opacity: 1;
     z-index: 1;
+    transform: scaleX(2.5rem);
     /* margin-top: 29px; */
 }
 .notebox-images{
@@ -247,17 +238,7 @@
     background-size: cover;
     background-position:top;
     background-repeat: no-repeat;
-    margin-top: 130px;
-}
-.codersimages{
-    height: 230px;
-    width: 200px;
-    /* border: 2px solid black; */
-    /* border-radius: 10px; */
-    margin-left: 140px;
-    /* margin-top: 80px; */
-    text-align: center;
-    display: grid;
+    margin-top: 30px;
 }
 /* about end */
 /* about end */
@@ -301,71 +282,21 @@
 /* year subject images start  */
 /* year subject images start  */
 /* year subject images start  */
-#Secoundyearimages1{
-    background-image: url("m3.jpg");
-}
-#Secoundyearimages2{
-    background-image: url("EEE.jpg");
-}
-#Secoundyearimages3{
-    background-image: url("ds.jpg");
-}
-#Secoundyearimages4{
-    background-image: url("fd.webp");
-}
-#Secoundyearimages5{
-    background-image: url("oopm.jpg");
-}
-
-
 #thirdyearimage1{
-    background-image: url("dc.jpg");
-}
-#thirdyearimage2{
-    background-image: url("cs.jpg");
-}
-#thirdyearimage3{
-    background-image: url("dbms2.jpg");
-}
-#thirdyearimage4{
-    background-image: url("cgm.png");
-}
-#thirdyearimage5{
-    background-image: url("ai.jpg");
-}
-#thirdyearimage6{
     background-image: url("aca.jpg");
 }
-#thirdyearimage7{
+#thirdyearimage2{
     background-image: url("ppl.webp");
 }
-#thirdyearimage8{
+#thirdyearimage3{
     background-image: url("toc.jpg");
 }
-#thirdyearimage9{
+#thirdyearimage4{
     background-image: url("cn.webp");
 }
-#thirdyearimage10{
+#thirdyearimage5{
     background-image: url("iot.gif");
 }
-
-
-#fourthyearimages1{
-    background-image: url("Distributed.jpg");
-}
-#fourthyearimages2{
-    background-image: url("Compiler design.jpg");
-}
-#fourthyearimages3{
-    background-image: url("Web engineering.jpg");
-}
-#fourthyearimages4{
-    background-image: url("MIR.jpg");
-}
-#fourthyearimages5{
-    background-image: url("Data Science & Big Data.jpg");
-}
-
 /* year subject images end  */
 /* year subject images end  */
 /* year subject images end  */
@@ -453,7 +384,7 @@
 
 
 
-@media (max-width:300px){
+@media (max-width:960px){
     #pages{
         text-decoration: none;
         font-size: 15px;
@@ -533,4 +464,6 @@
         font-size: -12px;
         padding: 0px;
     }
+    
+    
 }
